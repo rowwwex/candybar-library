@@ -39,3 +39,16 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+task unzipIcons(type: Copy) {
+    def zipFile = file('drawable.zip')
+    def outputDir = file('core/src/main/res/drawable')
+    
+    from zipTree(zipFile)
+    into outputDir
+}
+
+project.afterEvaluate {
+    if (tasks.findByName('preBuild')) {
+        tasks.preBuild.dependsOn unzipIcons
+    }
+}

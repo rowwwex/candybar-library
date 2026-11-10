@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Сквиркла, viewport 100x100: используйте в iconmask / iconback -->
+    <string name="squircle_path" translatable="false">M50,0 C85,0 100,15 100,50 C100,85 85,100 50,100 C15,100 0,85 0,50 C0,15 15,0 50,0 Z</string>
+    <item name="icon_scale" type="dimen" format="float">0.75</item>
+
+    <!-- Фоновые цвета 20 тем: лаунчер подставляет один из них под приложения без иконки -->
+    <color name="back_green">#3c453e</color>
+    <color name="back_white">#454545</color>
+    <color name="back_purple">#3e3746</color>
+    <color name="back_blue">#353f48</color>
+    <color name="back_orange">#493e35</color>
+    <color name="back_red">#493538</color>
+    <color name="back_pink">#473841</color>
+    <color name="back_cyan">#384546</color>
+    <color name="back_sunset">#3c3033</color>
+    <color name="back_aurora">#282b39</color>
+    <color name="back_gold">#35322c</color>
+    <color name="back_ocean">#1e2a37</color>
+    <color name="back_neon">#261e2f</color>
+    <color name="back_forest">#293627</color>
+    <color name="back_sand">#382f29</color>
+    <color name="back_candy">#2f2134</color>
+    <color name="back_lavender_light">#e5ddf0</color>
+    <color name="back_cream_light">#f3eadc</color>
+    <color name="back_mono_light">#e7e7e7</color>
+    <color name="back_mint_light">#dff1e8</color>
+
+    <!-- Заливка маски и верхнего слоя (iconupon прозрачна) -->
+    <color name="iconmask_fill">#FFFFFFFF</color>
+    <color name="iconupon_fill">#00000000</color>
+</resources>

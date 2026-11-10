@@ -35,6 +35,7 @@ buildscript {
 }
 
 android {
+    compileSdkVersion 30
     compileSdkVersion rootProject.ext.CompileSdk
     buildToolsVersion rootProject.ext.BuildTools
 
